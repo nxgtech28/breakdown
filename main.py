@@ -360,7 +360,7 @@ async def identify_image(
         # Make OpenAI API call
         logger.info("Making request to OpenAI API...")
         response = client.responses.create(
-            model="o4-mini",
+            model="gpt-5.2",
             input=messages,
             reasoning={"effort": "medium"}
         )
@@ -439,7 +439,7 @@ async def edit_food_breakdown(
         # Make OpenAI API call via Responses API
         logger.info("Making request to OpenAI API...")
         response = client.responses.create(
-            model="gpt-4.1-nano",
+            model="gpt-5.2",
             input=messages,
             temperature=0.1
         )
