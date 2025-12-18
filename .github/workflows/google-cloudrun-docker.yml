@@ -34,7 +34,7 @@ on:
     branches:
       - "main"
   workflow_dispatch:
-    
+
 env:
   PROJECT_ID: 'project-79dc955b-fe40-4493-b16'
   REGION: 'asia-south1'
